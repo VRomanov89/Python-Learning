@@ -27,3 +27,5 @@ students3 = [
 
 for student in students3:
     print(student["name"], student["house"], student["patron"], sep=", ")
+
+#Exceptions in Python
