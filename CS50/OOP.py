@@ -7,11 +7,23 @@ class Student:
         self.name = name
         self.house = house
 
+
     def __str__(self):
         return f"{self.name} from {self.house}"
     
+    #Getter
+    def house(self):
+        return self.house
+    
+    #Setter
+    def house(self, house):
+        self.house = house
+
+
+    
 def main():
     student = get_student()
+    student.house = "Test my code"
     print(student)
 
 def get_student():
