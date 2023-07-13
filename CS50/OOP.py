@@ -7,17 +7,17 @@ class Student:
         self.name = name
         self.house = house
 
-
     def __str__(self):
         return f"{self.name} from {self.house}"
     
-    #Getter
+    @property
     def house(self):
         return self.house
     
-    #Setter
+    @house.setter
     def house(self, house):
-        self.house = house
+        if house not in ["Gryff", "Huff", "Raven", "Slyth"]:
+            self.house = house
 
 
     
