@@ -1,0 +1,12 @@
+This is a notes document for CS50 Python AI
+
+Lecture 1
+
+state space - each state transition map. Arrows connecting each state - graph with nodes.
+goal test - a way to determine if a given state is a goal state. Could be multiple goals.
+path cost - the numerical cost associated with a given path.
+node | datastructure that keeps track of:
+- state
+- parent
+- action
+- path cost
